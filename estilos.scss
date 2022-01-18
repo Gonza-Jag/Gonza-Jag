@@ -1,14 +1,6 @@
-/*...RESETEO...*/
+$colormarmol: blanchedalmond;
+@import "reset";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-html{font-size: 62.5%;} /* 1rem = 10px*/
 
 body{
     background-color: rgb(30, 167, 110);
@@ -80,7 +72,7 @@ h1 , h2 , h3 , p {
     width: 100%;
 }
 .main--container .section--principal h1{
-    color: blanchedalmond;
+    color: $colormarmol;
     font-size: 7rem;
     font-weight: bold;
     text-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(0, 0, 0) ;
@@ -116,7 +108,7 @@ h1 , h2 , h3 , p {
 /*...............FOOTER.........*/
 
 .footer{
-    background-color: blanchedalmond;
+    background-color: $colormarmol;
     width: 100%;
 }
 .footer--container{
@@ -143,7 +135,7 @@ h1 , h2 , h3 , p {
 }
 
 .footer--navbar--menu .footer--navbar--item{
-    width: 5rem;
+    width:5rem;
     height: auto;
 }
 .footer--navbar--menu .footer--navbar--item img{
@@ -155,4 +147,26 @@ h1 , h2 , h3 , p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media(max-width: 36rem){
+.footer .footer--container{
+    background-color: rgb(5, 73, 56);
+    width: 100%;
+    font-size: 1.5rem;}
+}
+.footer--container .footer--logo{
+    width: 8rem;
+    height: auto;
+}
+.footer--container .footer--logo img{
+    width: 100%;
+    height: auto;
+}
+.footer--navbar--menu .footer--navbar--item{
+    width:5rem;
+    height: auto;
+}
+.footer--navbar--menu .footer--navbar--item img{
+    width: 40%;
+    height: auto;
 }

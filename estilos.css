@@ -221,4 +221,32 @@ h1, h2, h3, p {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+@media (max-width: 36rem) {
+  .footer .footer--container {
+    background-color: #054938;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+
+.footer--container .footer--logo {
+  width: 8rem;
+  height: auto;
+}
+
+.footer--container .footer--logo img {
+  width: 100%;
+  height: auto;
+}
+
+.footer--navbar--menu .footer--navbar--item {
+  width: 5rem;
+  height: auto;
+}
+
+.footer--navbar--menu .footer--navbar--item img {
+  width: 40%;
+  height: auto;
+}
 /*# sourceMappingURL=estilos.css.map */
