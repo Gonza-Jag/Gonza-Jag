@@ -20,7 +20,7 @@ h1 , h2 , h3 , p {
     /*.................HEADER...............*/
 .header{
     background-color: #a79c94;
-    position:relative;
+    position:fixed;
     top: 0;
     width: 100%;
 }
@@ -48,9 +48,7 @@ h1 , h2 , h3 , p {
     padding: 0.3rem;
 }
 .header--navbar--ul li{
-    align-items: flex-end;
-    justify-content: center;
-    background-color: rgb(168, 134, 23);
+    background-color: rgb(23, 168, 96);
 
     a{
         color: rgb(0, 0, 0);
