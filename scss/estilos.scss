@@ -1,6 +1,7 @@
 $colormarmol: blanchedalmond;
 @import "reset";
 @import "maps";
+@import "extend";
 
 
 body{
@@ -65,7 +66,7 @@ h1 , h2 , h3 , p {
 }
 .main--container .section--principal{
     background: {
-    image: url(./assets/img/jazzmaster.jpg);
+    image: url(/assets/img/jazzmaster.jpg);
     size: cover;
     position: center;
     repeat: no-repeat;}

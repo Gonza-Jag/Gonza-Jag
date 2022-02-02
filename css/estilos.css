@@ -101,7 +101,7 @@ h1, h2, h3, p {
 }
 
 .main--container .section--principal {
-  background-image: url(./assets/img/jazzmaster.jpg);
+  background-image: url(/assets/img/jazzmaster.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
